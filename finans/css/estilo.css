@@ -1,0 +1,25 @@
+#home {
+	background: #ffc107;
+	color: white;
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
+
+iframe{
+	/*width: 380px;
+	height: 590px;
+	color: #e5e5e5;*/
+	--iframe-bot-message: #bdfcbf;
+	--iframe-button-titlebar-color: #7ec472;
+	--iframe-chat-background-color: #fafafa;
+	--iframe-font-color: black;
+	--iframe-send-icon: #7ec472;
+	--iframe-user-message: #7ec472;
+}
