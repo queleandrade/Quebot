@@ -12,14 +12,11 @@ footer p a {
 	margin: 5px 15px;
 }
 
-iframe{
-	/*width: 380px;
-	height: 590px;
-	color: #e5e5e5;*/
-	--iframe-bot-message: #bdfcbf;
-	--iframe-button-titlebar-color: #7ec472;
-	--iframe-chat-background-color: #fafafa;
-	--iframe-font-color: black;
-	--iframe-send-icon: #7ec472;
-	--iframe-user-message: #7ec472;
+df-messenger {
+	--df-messenger-bot-message: #e0dd09;
+	--df-messenger-button-titlebar-color: #56b4df;
+	--df-messenger-chat-background-color: #fafafa;
+	--df-messenger-font-color: white;
+	--df-messenger-send-icon: #878fac;
+	--df-messenger-user-message: #5af1fc;
 }
