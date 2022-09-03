@@ -1,6 +1,10 @@
 #home {
-	background: #ffc107;
+	background: #0750be;
 	color: white;
+}
+
+header{
+	background: #0750be;
 }
 
 .caixa {
@@ -20,4 +24,8 @@ df-messenger {
 	--df-messenger-send-icon: #878fac;
 	--df-messenger-user-message: #9cdcf1;
 	--df-messenger-minimized-chat-close-icon-color: #ffffff;
+}
+
+h3{
+	color: #ffffff;
 }
