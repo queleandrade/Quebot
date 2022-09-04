@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Quebot - assistente virtual</title>
+  </head>
+  <body>
+    
+    <header><!-- inicio Cabecalho -->
+      <nav class="navbar navbar-expand-sm navbar-light ">
+        <div class="container">
+          
+          <a href="#" class="navbar-brand">
+            <h3>Quebot</h3>
+          </a>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./sobre.html" class="nav-link">Sobre</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header><!--/fim Cabecalho -->
+    <!-- Inicio chatbot-->
+    <df-messenger 
+      chat-icon="img/logo1.png"
+      intent="Welcome"
+      chat-title="Quebot"
+      agent-id="4f4adfbc-2ff1-473f-b7e6-600fde3368da"
+      language-code="pt-br"
+    ></df-messenger>
+    <!-- Fim chatbot-->
+
+    <!--Carrosel-->
+
+    
+    <section id="home"><!-- Início seção home -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex"><!-- Textos da seção -->
+              <div class="align-self-center">
+                <br>
+                <br>
+                <h1 class="display-4">Olá, sou Quebot</h1>
+                <p>
+                    Esse trabalho é uma extensão da proposta principal do projeto que utiliza redes sociais para fazer
+                    classificação de sentimentos, e assim, ser possível de detectar transtornos mentais. Não é colocado a disposição
+                    do público. Pois, precisa passar pela aprovação do conselho de ética da UFRB. Estamos na versão 1.0, vem aí
+                    novas versões e implemntações, com a expectativa de causar impactos positivos na saúde pública. 
+                    Minha criadora Quele, tem muitas ideias e pretende em parceiria com psicologos trazer várias coisas legais.
+                </p>
+  
+                <!--<form class="mt-4 mb-4">
+                  <div class="input-group input-group-lg">
+                    <input type="text" placeholder="Seu e-mail" class="form-control">
+                    <div class="input-group-append">
+                      <button type="button" class="btn btn-dark">Cadastre-se</button>
+                    </div>
+                  </div>
+                </form>-->
+  
+                <p>Disponível no
+                  <a href="" class="btn btn-outline-light">
+                    <i class="fab fa-chrome fa-lg"></i>
+                  </a>
+                  <a href="" class="btn btn-outline-light">
+                    <i class="fab fa-telegram fa-lg"></i>
+                  </a>
+                </p>
+  
+              <br>
+              <br>
+  
+              </div>
+            </div><!--/fim textos da seção -->
+            <div class="col-md-6 d-none d-md-block">
+              <img src="img/capa.png">
+            </div>
+  
+          </div>
+        </div>
+      </section><!--/fim seção home -->
+
+    <!-- Javascript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
